@@ -1,0 +1,46 @@
+/* YOUR STYLING HERE */
+body {
+    	    background-color: #E5F3F4;
+    	    width: 90%;
+    	    padding: 40px 5%;
+    	    margin: 0;
+    	    font-family: 'Roboto Mono', monospace;
+    	}
+    	
+    	h1 {
+    	    color: #37BECC;
+    	    font-weight: bold;
+    	    text-align: center;
+    	    font-family: 'Roboto Mono', monospace;
+    	}
+    	
+    	.question {
+    	    display: flex;
+    	    align-items: center;
+    	    height: 100px;
+    	    width: 100%;
+    	}
+    	
+    	h3 {
+    	    margin: 0;
+    	    font-family: 'Roboto Mono', monospace;
+    	}
+    	
+    	.tab {
+    	    height: 20px;
+    	    width: 20px;
+    	    margin-right: 20px;
+    	    display: flex;
+    	    justify-content: center;
+    	    align-items: center;
+    	}
+    	.closed {
+    	    background-color: #1c2224;
+    	    color: white;
+    	    box-shadow: 2.5px 2.5px 2.5px #1c2224;
+    	}
+    	.opened {
+    	    background-color: #84CE15;
+    	    color: #1c2224;
+    	    box-shadow: 2.5px 2.5px 2.5px #1c2224;
+    	}
